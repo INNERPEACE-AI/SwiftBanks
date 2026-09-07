@@ -1,0 +1,279 @@
+/* I reset default browser style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+}
+
+
+/* body Styling */
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+
+/* Navigation Bar */
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #0a2540;
+padding: 12px 60px;
+}
+
+
+/* Logo */
+.logo img{
+    height: 70px;
+    width: auto;
+    display: block;
+}
+
+
+/* Navigation List */
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+
+/* List Items */
+nav ul li{
+    margin-left: 30px;
+}
+
+
+/* Links */
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+
+/* Hover Effect */
+nav ul li a:hover{
+    color: #4DA6FF;
+}
+
+
+
+
+
+/* Hero Section */
+.hero{
+    min-height: 85vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background-color: #f5f7fa;
+}
+
+
+/* Hero Content */
+.hero-content {
+    width: 50%;
+}
+
+
+.hero-subtitle{
+    color:#2563eb;
+    font-size:16px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1{
+    font-size:58px;
+    line-height:1.1;
+    color: #0a2540;
+    margin-buttom:20px;
+}
+
+.hero-text {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555;
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+
+/* Hero Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background-color: #0A2540;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+}
+
+.btn-secondary {
+    border: 2px solid #0A2540;
+    color: #0A2540;
+    background-color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #0A2540;
+    color: white;
+}
+
+/* Hero Image */
+.hero-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: block;
+}
+
+
+
+ /* Services Section */ 
+.services {
+    padding: 80px;
+    background-color: white;
+}
+
+/* Services Heading */
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-heading p {
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.section-heading h2 {
+    color: #0A2540;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.section-heading span {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Service Cards */
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    padding: 30px;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    transition: 0.3s;
+}
+
+.service-card h3 {
+    color: #0A2540;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(10, 37, 64, 0.12);
+}
+
+
+/* Service Icons */
+      .service-icon {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #e8f0ff;
+      color: #2563eb;
+      border-radius: 10px;
+      font-size: 24px;
+      margin-bottom: 20px;
+      }
+
+      .why-choose {
+    padding: 80px 8%;
+    background-color: #f5f7fc;
+}
+
+.why-text {
+    max-width: 650px;
+}
+
+.section-label {
+    color: #243b73;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.why-text h2 {
+    color: #172554;
+    font-size: 38px;
+    margin: 10px 0 20px;
+}
+
+.why-text p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.why-text ul {
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+.why-text li {
+    color: #444;
+    margin-bottom: 12px;
+}
+
+
